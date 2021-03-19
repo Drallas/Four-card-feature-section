@@ -57,8 +57,8 @@ body {
 .header {
   color: var(--very-dark-blue);
   margin: 0 auto;
-  margin-top: 85px;
-  margin-bottom: 85px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   text-align: center;
   width: 311px;
 }
@@ -151,7 +151,7 @@ body {
     max-width: 1110px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 325px 1fr;
+    grid-template-rows: 320px 1fr;
     gap: 0px 25px;
     grid-template-areas:
       "header header header"
@@ -174,7 +174,7 @@ body {
 
   .header p {
     font-size: 15px;
-    width: 600px;
+    width: 590px;
   }
 
   .left {
