@@ -151,7 +151,7 @@ body {
     max-width: 1110px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 360px 1fr;
+    grid-template-rows: 325px 1fr;
     gap: 0px 25px;
     grid-template-areas:
       "header header header"
