@@ -145,12 +145,14 @@ body {
   height: 61px;
 }
 
+/* Media Query Section */
 @media (min-width: 1150px) {
   .container {
+    border: 1px solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    gap: 0px 25px;
     grid-template-areas:
       "header header header"
       "left top right"
@@ -160,12 +162,13 @@ body {
   .header { 
     grid-area: header; 
   }
-
   .left {
     grid-area: left;
+    align-self: center;
   }
   .right {
     grid-area: right;
+    align-self: center;
   }
   .top {
     grid-area: top;
@@ -175,7 +178,7 @@ body {
   }
 }
 
-/* Styling for Attribution in the Footer section */
+/* Styling for Attribution in the Footer Section */
 
 .attribution {
   font-size: 11px;
