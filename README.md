@@ -40,18 +40,15 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS
-- JavaScript
+- BEM
 - Add more...
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned to make first one component and then apply the classes to the other HTML elements. Also trying to avoid as much as possible duplication of CSS selectors. 
 
-To see how you can add code snippets, see below:
+This was also the first (beside following tutorials) that I used the grid system..
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
