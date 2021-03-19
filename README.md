@@ -47,11 +47,13 @@ Users should be able to:
 
 I learned to make first one component and then apply the classes to the other HTML elements. Also trying to avoid as much as possible duplication of CSS selectors. 
 
-This was also the first (beside following tutorials) that I used the grid system, but tutorials are not triggering 
+This was also the first (beside following tutorials) that I used the grid system, but tutorials are not triggering. 
+
+I'm also starting to become more comfortable with the Dev Tools in Firefox. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'm still a beginner, i set up a gooed workflow but to become comfortable I simply need to build more projects. With the CSS Flexbox and Grid system i need much more hands-on before I can create everyhthing without referencing my Notion documentation or online Search.   
 
 ### Useful resources
 
