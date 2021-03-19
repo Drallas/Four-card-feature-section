@@ -56,6 +56,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Grid Layoutit](https://grid.layoutit.com) - I'm a visual learner, in the process o learning this helps me to focus on implementing the concept without having to struggle on the CSS details. A promise to myself; next one i write from scratch.
+- [CSS Trick Complete Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) I had seen and bookmarked this one before, but now I had to read it again, to understand and extract what i needed to make the grid look as the design wanted!
 
 ## Author
 
