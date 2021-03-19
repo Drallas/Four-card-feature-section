@@ -33,6 +33,11 @@ body {
     line-height: 1.3;
 }
 
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -45,25 +50,53 @@ body {
 }
 
 
-/* Main Section */
+/* Header Section */
 
+.header {
+  color: var(--very-dark-blue);
+  margin: 0 auto;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  text-align: center;
+  width: 311px;
+}
+
+.header h1 {
+    font-size: 21.3px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 21.3px;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 13.5px;
+    font-weight: 200;
+    line-height: 1.8;
+    opacity: 0.6;
+}
 
 /* Cards Section */
 
 .container {
     position: relative;
-    
-    left: 50px;
+    max-width: 375px;
+    margin: 0 auto;
+
 }
 
 .card {
-  margin-bottom: 25px;
   box-sizing: content-box;
   width: 311px;
   height: 222px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 4px 4px 0 var(--shadow);
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .card__top-border-cyan {
@@ -117,9 +150,10 @@ body {
 .attribution { 
   font-size: 11px; 
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 0%;
   left: 50%;
+  margin-top: 50px;
   margin-right: -50%;
   transform: translate(-50%, -0%);
 }
