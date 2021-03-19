@@ -148,7 +148,7 @@ body {
 /* Media Query Section */
 @media (min-width: 1150px) {
   .container {
-    border: 1px solid;
+    max-width: 1110px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -172,10 +172,18 @@ body {
   }
   .top {
     grid-area: top;
+    align-self: end;
   }
   .bottom {
     grid-area: bottom;
+    align-self: start;
   }
+
+  .card {
+    width: 350px;
+    height: 250px ;
+  }
+
 }
 
 /* Styling for Attribution in the Footer Section */

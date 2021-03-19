@@ -47,7 +47,7 @@ Users should be able to:
 
 I learned to make first one component and then apply the classes to the other HTML elements. Also trying to avoid as much as possible duplication of CSS selectors. 
 
-This was also the first (beside following tutorials) that I used the grid system..
+This was also the first (beside following tutorials) that I used the grid system, but tutorials are not triggering 
 
 ### Continued development
 
@@ -55,7 +55,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Grid Layoutit](https://grid.layoutit.com) - I'm a visual learner, in the process o learning this helps me to focus on implementing the concept without having to struggle on the CSS details. A promise to myself; next one i write from scratch.
 
 ## Author
 
