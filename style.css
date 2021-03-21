@@ -57,7 +57,7 @@ body {
 
 .container__header {
   color: var(--very-dark-blue);
-  margin: 5.25rem auto;
+  margin: 5.20rem auto;
   text-align: center;
   max-width: 19.4375rem;
 }
@@ -66,13 +66,13 @@ body {
   font-size: 1.5rem;
   font-weight: 100;
   opacity: 0.8;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .header2 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .headerp {
