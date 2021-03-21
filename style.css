@@ -72,13 +72,14 @@ body {
 .header2 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .headerp {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.8;
+  margin: 0 auto;
   opacity: 0.5;
   max-width: 18.75rem;
 }
@@ -139,7 +140,7 @@ body {
 
 .card__para {
   margin: 4px 0 3.15rem 1.7825rem;
-  font-size: 11px;
+  font-size: 0.8125rem;
   font-weight: 200;
   color: var(--very-dark-blue);
   opacity: 0.5;
@@ -154,7 +155,7 @@ body {
 }
 
 /* Media Query Section */
-@media (min-width: 62.5rem) {
+@media (min-width: 69rem) {
 
   .container {
     margin-top: 5rem;
@@ -166,7 +167,7 @@ body {
     max-width: 68.5rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 25px 25px;
+    grid-gap: 30px 30px;
     grid-template-areas:
       "cyan red blue"
       "cyan orange blue"
@@ -174,6 +175,7 @@ body {
 
   .container__header { 
     max-width: 33.75rem;
+    margin-bottom: 4rem;
   } 
   
   .header1 {
@@ -185,8 +187,9 @@ body {
   }
   
   .headerp {
+
     font-size: 0.9rem;
-    max-width: 33.75rem;
+    max-width: 32.5rem;
   }
 
   .cyan {
@@ -206,16 +209,21 @@ body {
     align-self: start;
   }
 
-  .card {
-    
+  .card__para{
+    margin-bottom: 4.9rem;
+    max-width: 15rem;
+  }
+  .card__svg {
+    margin-left: 16rem;
   }
 }
 
 /* Styling for Attribution in the Footer Section */
 
 .attribution {
-  position: absolute;
+  position: relative;
   margin: 0 auto;
+  margin-top: 2.5rem;
   text-align: center;
   font-size: 0.6875rem;
   bottom: 0%;
