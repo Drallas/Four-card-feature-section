@@ -66,7 +66,7 @@ body {
   font-size: 1.5rem;
   font-weight: 100;
   opacity: 0.8;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .header2 {
@@ -111,24 +111,24 @@ body {
 
 .card {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 6.5px;
   box-shadow: 0 0.1875rem 1.375rem 0.0625rem var(--shadow);
 }
 
 .card__top-border-cyan {
-  border-top: 0.3125rem solid var(--cyan);
+  border-top: 0.25rem solid var(--cyan);
 }
 
 .card__top-border-red {
-  border-top: 0.3125rem solid var(--red);
+  border-top: 0.25rem solid var(--red);
 }
 
 .card__top-border-orange {
-  border-top: 0.3125rem solid var(--orange);
+  border-top: 0.25rem solid var(--orange);
 }
 
 .card__top-border-blue {
-  border-top: 0.3125rem solid var(--blue);
+  border-top: 0.25rem solid var(--blue);
 }
 
 .card__header {
