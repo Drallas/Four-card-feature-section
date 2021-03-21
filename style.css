@@ -55,37 +55,38 @@ body {
 
 /* Header Section */
 
-.header {
+.container__header {
   color: var(--very-dark-blue);
-  margin: 0 auto;
-  margin-bottom: 5rem;
+  margin: 5.25rem auto;
   text-align: center;
-  min-width: 19.4375rem;
+  max-width: 19.4375rem;
 }
 
-.header h1 {
-  font-size: 1,5rem;
-  font-weight: 200;
-  padding-bottom: 0.625rem;
+.header1 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
 }
 
-.header h2 {
-  font-size: 1.33125rem;
+.header2 {
+  font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-.header p {
-  font-size: 0,5rem;
-  font-weight: 200;
+.headerp {
+  font-size: 0.9rem;
+  font-weight: 400;
   line-height: 1.8;
-  opacity: 0.6;
+  opacity: 0.5;
+  max-width: 18.75rem;
 }
 
 /* Cards Section */
 
 .container {
   margin: 0 auto;
-  margin-top: 5rem;
 }
 
 .grid-container {
@@ -130,14 +131,14 @@ body {
 }
 
 .card__header {
-  margin: 1.25rem 1rem 0.625rem 1rem;
+  margin: 1.25rem 1rem 0.625rem 1.7825rem;
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--very-dark-blue);
 }
 
 .card__para {
-  margin: 4px 15px;
+  margin: 4px 0 3.15rem 1.7825rem;
   font-size: 11px;
   font-weight: 200;
   color: var(--very-dark-blue);
@@ -146,7 +147,8 @@ body {
 
 .card__svg {
   display: block;
-  margin-left: 15rem;
+  margin-left: 14rem;
+  margin-bottom: 25px;
   max-width: 57px;
   max-height: 61px;
 }
@@ -170,20 +172,21 @@ body {
       "cyan orange blue"
   }
 
-  .header { 
-    max-width: 50ch;
+  .container__header { 
+    max-width: 33.75rem;
   } 
-
-  .header h1 {
+  
+  .header1 {
     font-size: 2.25rem;
   }
-
-  .header h2 {
+  
+  .header2 {
     font-size: 2.25rem;
   }
-
-  .header p {
-    font-size: 1rem;
+  
+  .headerp {
+    font-size: 0.9rem;
+    max-width: 33.75rem;
   }
 
   .cyan {
@@ -211,11 +214,14 @@ body {
 /* Styling for Attribution in the Footer Section */
 
 .attribution {
+  position: absolute;
   margin: 0 auto;
   text-align: center;
   font-size: 0.6875rem;
-  margin-top: 3.125rem;
-}
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
